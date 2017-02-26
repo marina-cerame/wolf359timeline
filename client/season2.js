@@ -71,6 +71,63 @@ const commanding = {
   },
 };
 
+const destruction = {
+  start_date: { year: 2015, month: 2, day: 28 },
+  text: {
+    headline: 'Mutually Assured Destruction',
+    text: 'test test test',
+  },
+};
+
+const noPressure = {
+  start_date: { year: 2015, month: 3, day: 10 },
+  text: {
+    headline: 'No Pressure',
+    text: 'test test test',
+  },
+};
+
+const brainDamage = {
+  start_date: { year: 2015, month: 3, day: 12 },
+  text: {
+    headline: 'Tactical Brain Damage',
+    text: 'test test test',
+  },
+};
+
+const superhero = {
+  start_date: { year: 2015, month: 3, day: 14 },
+  text: {
+    headline: 'Lame-o Superhero Origin Story',
+    text: 'test test test',
+  },
+};
+
+const noHarm = {
+  start_date: { year: 2015, month: 3, day: 14 },
+  end_date: { year: 2015, month: 3, day: 21 },
+  text: {
+    headline: 'Do No Harm',
+    text: 'test test test',
+  },
+};
+
+const knockKnock = {
+  start_date: { year: 2015, month: 3, day: 21 },
+  text: {
+    headline: 'Knock Knock',
+    text: 'test test test',
+  },
+};
+
+const whosThere = {
+  start_date: { year: 2015, month: 3, day: 21 },
+  text: {
+    headline: 'Who\'s There?',
+    text: 'test test test',
+  },
+};
+
 episodes = episodes.concat([
   kumbaya,
   whatsup,
@@ -80,4 +137,11 @@ episodes = episodes.concat([
   killhilbert,
   paranoia,
   commanding,
+  destruction,
+  noPressure,
+  brainDamage,
+  superhero,
+  noHarm,
+  knockKnock,
+  whosThere,
 ]);
