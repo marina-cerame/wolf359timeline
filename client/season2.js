@@ -110,22 +110,25 @@ const noHarm = {
     headline: 'Do No Harm',
     text: 'test test test',
   },
+  display_date: 'March 14, 2015 – March 21, 2015',
 };
 
 const knockKnock = {
-  start_date: { year: 2015, month: 3, day: 21 },
+  start_date: { year: 2015, month: 3, day: 21, hour: 16 },
   text: {
     headline: 'Knock Knock',
     text: 'test test test',
   },
+  display_date: 'March 21, 2015',
 };
 
 const whosThere = {
-  start_date: { year: 2015, month: 3, day: 21 },
+  start_date: { year: 2015, month: 3, day: 21, hour: 17 },
   text: {
     headline: 'Who\'s There?',
     text: 'test test test',
   },
+  display_date: 'March 21, 2015',
 };
 
 episodes = episodes.concat([

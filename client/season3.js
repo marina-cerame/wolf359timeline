@@ -15,12 +15,13 @@ const panpan = {
 };
 
 const mayday = {
-  start_date: { year: 2015, month: 3, day: 21 },
+  start_date: { year: 2015, month: 3, day: 21, hour: 18 },
   end_date: { year: 2015, month: 9, day: 30 },
   text: {
     headline: 'Mayday',
     text: 'test test test',
   },
+  display_date: 'March 21, 2015 – September 30, 2015',
 };
 
 const securite = {
