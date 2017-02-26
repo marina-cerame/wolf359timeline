@@ -122,7 +122,7 @@ const gasme = {
 };
 
 
-const episodes = [
+let episodes = [
   titlecard,
   ratkillingtar,
   littlerevolucion,

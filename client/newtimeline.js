@@ -1,10 +1,4 @@
-/* global episodes, season1, $ */
-
-const season2 = {
-  start_date: { year: 2014, month: 12, day: 26 },
-  end_date: { year: 2015, month: 3, day: 21 },
-  text: { headline: 'Season 2' },
-};
+/* global episodes, season1, season2 $ */
 
 const season3 = {
   start_date: { year: 2015, month: 3, day: 21 },
@@ -21,7 +15,7 @@ const timelineObject = {
   ],
 };
 
-const timeline = new TL.Timeline('timeline-embed', timelineObject, { scale_factor: 8 });
+const timeline = new TL.Timeline('timeline-embed', timelineObject, { scale_factor: 5 });
 
 $('#wolf-359-marker').css('display', 'none');
 $('#wolf-359').find('h3').css('display', 'none');
