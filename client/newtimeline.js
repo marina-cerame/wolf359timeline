@@ -1,3 +1,5 @@
+/* global episodes, season1, $ */
+
 const season2 = {
   start_date: { year: 2014, month: 12, day: 26 },
   end_date: { year: 2015, month: 3, day: 21 },
@@ -19,7 +21,7 @@ const timelineObject = {
   ],
 };
 
-const timeline = new TL.Timeline('timeline-embed', timelineObject, {scale_factor: 10});
+const timeline = new TL.Timeline('timeline-embed', timelineObject, { scale_factor: 8 });
 
 $('#wolf-359-marker').css('display', 'none');
 $('#wolf-359').find('h3').css('display', 'none');

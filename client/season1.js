@@ -23,7 +23,7 @@ const ratkillingtar = {
 const littlerevolucion = {
   start_date: { year: 2014, month: 8, day: 22 },
   text: {
-    headline: 'Little Revolucion',
+    headline: 'Little Revolución',
     text: 'test test test',
   },
 };
@@ -40,8 +40,9 @@ const cataracts = {
   start_date: { year: 2014, month: 9, day: 22 },
   text: {
     headline: 'Cataracts and Hurricanoes',
-    text: 'test test test',
+    text: 'test test test<br><small>* Estimated</small>',
   },
+  display_date: 'September 22, 2014*',
 };
 
 const cigarettecandy = {
@@ -86,6 +87,40 @@ const emptyman = {
   },
 };
 
+const dangerbug = {
+  start_date: { year: 2014, month: 11, day: 27 },
+  text: {
+    headline: 'Extreme Danger Bug',
+    text: 'test test test<br><small>* Estimated</small>',
+  },
+  display_date: 'November 27, 2014*',
+};
+
+const alone = {
+  start_date: { year: 2014, month: 12, day: 11 },
+  text: {
+    headline: 'Am I Alone Now?',
+    text: 'test test test<br><small>* Estimated</small>',
+  },
+  display_date: 'December 11, 2014*',
+};
+
+const deepbreaths = {
+  start_date: { year: 2014, month: 12, day: 25 },
+  text: {
+    headline: 'Deep Breaths',
+    text: 'test test test',
+  },
+};
+
+const gasme = {
+  start_date: { year: 2014, month: 12, day: 25 },
+  text: {
+    headline: 'Gas Me Twice',
+    text: 'test test test',
+  },
+};
+
 
 const episodes = [
   titlecard,
@@ -98,4 +133,8 @@ const episodes = [
   soundandfury,
   box953,
   emptyman,
+  dangerbug,
+  alone,
+  deepbreaths,
+  gasme,
 ];
