@@ -7,10 +7,29 @@
     If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
 */
 
+/* my things */
 body {
   background-color: black; transition: 1s;
   background-image: url("./backgrounds/bg1.png"); transition: 1s;
+  background-size: 100% 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
 }
+
+#timeline-container {
+  width: 100%;
+  background-color: rgba(225,225,225,0.25);
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+#timeline-embed {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+}
+
+/* not my things */
 
 .tl-storyjs div * {
     -webkit-box-sizing: content-box;
