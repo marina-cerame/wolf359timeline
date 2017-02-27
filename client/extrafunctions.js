@@ -19,3 +19,10 @@ $('.audio-status, .tl-icon-music').click(() => {
   $('.audio-status').text(audioStatus ? 'Audio On' : 'Audio Off');
   $('.tl-icon-music').css('color', audioStatus ? 'rgba(225,225,225,0.8)' : 'rgba(0,0,0,0.5)');
 });
+
+// play audio based on episode
+$('body').on('slide-change', () => {
+  if(audioStatus) {
+    console.log($('.tl-timemarker-active').find($('.tl-headline')).text());
+  }
+});
