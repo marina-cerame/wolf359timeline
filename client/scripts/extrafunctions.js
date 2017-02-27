@@ -1,6 +1,9 @@
 /* global $, document */
+
 $(document).ready(() => {
   console.log('loading extra functions');
+  $('audio')[0].play();
+  $('audio')[0].volume = 0.5;
 
   // Hide unnecessary elements on title card
   $('#wolf-359-marker').css('display', 'none');
@@ -10,7 +13,7 @@ $(document).ready(() => {
   $('.tl-slidenav-content-container, .tl-slidenav-content, .tl-timemarker')
     .click(() => {
       const bgNumber = Math.floor(Math.random() * 9) + 1;
-      $('body').css('background-image', `url("./backgrounds/bg${bgNumber}.png")`);
+      $('body').css('background-image', `url("./backgrounds/bg${bgNumber}.jpg")`);
     });
 
   // toggle audio
@@ -33,11 +36,8 @@ $(document).ready(() => {
   // play audio based on episode
   $('body').on('slide-change', () => {
     if (audioStatus) {
-      console.log($('.tl-timemarker-active').find($('.tl-headline')).text());
-      const title = $('.tl-timemarker-active').find($('.tl-headline')).text();
-      if (title === 'Succulent Rat-Killing Tar') {
-        $('audio')[0].play();
-      }
+      console.log($('.tl-timemarker-active').attr('id'));
+      const title = $('.tl-timemarker-active').attr('id');
     }
   });
 });

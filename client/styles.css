@@ -10,7 +10,7 @@
 /* my things */
 body {
   background-color: black; transition: 1s;
-  background-image: url("./backgrounds/bg1.png"); transition: 1s;
+  background-image: url("./backgrounds/bg1.jpg"); transition: 1s;
   background-size: auto, auto;
   background-repeat: no-repeat;
   background-position: center center;
