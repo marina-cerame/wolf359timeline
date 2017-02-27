@@ -65,6 +65,21 @@ $(document).ready(() => {
     'am-i-alone-now': '* No Mission Day Given',
     'deep-breaths': `${hephMission} 580`,
     'gas-me-twice': `${hephMission} 580`,
+    'the-kumbaya-approach': `${hephMission} 581`,
+    'whats-up-doc': `${hephMission} 583`,
+    'painfully-ever-after': `${hephMission} 597`,
+    'bach-to-the-future': `${hephMission} 607`,
+    'happy-to-be-of-assistance': `${hephMission} 619`,
+    'lets-kill-hilbert': `${hephMission} 619`,
+    'the-paranoia-game': `${hephMission} 625`,
+    'minkowski-commanding': `${hephMission} 631 to 645`,
+    'mutually-assured-destruction': `${hephMission} 645`,
+    'no-pressure': `${hephMission} 655`,
+    'tactical-brain-damage': `${hephMission} 657`,
+    'lame-o-superhero-origin-story': `${hephMission} 659`,
+    'do-no-harm': `${hephMission} 659 to 666`,
+    'knock-knock': `${hephMission} 666`,
+    'whos-there': `${hephMission} 666`,
   };
 
   $('body').on('slide-change', () => { shouldSave = true; });
