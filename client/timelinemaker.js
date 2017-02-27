@@ -11205,13 +11205,11 @@ TL.TimeMarker = TL.Class.extend({
 
 	setActive: function(is_active) {
 		this.active = is_active;
-		
 		if (this.active && this.has_end_date) {
 			this._el.container.className = 'tl-timemarker tl-timemarker-with-end tl-timemarker-active';
-      $('body').trigger('slide-change');
 		} else if (this.active){
 			this._el.container.className = 'tl-timemarker tl-timemarker-active';
-      $('body').trigger('slide-change');
+			$('body').trigger('slide-change');
 		} else if (this.has_end_date){
 			this._el.container.className = 'tl-timemarker tl-timemarker-with-end';
 		} else {
