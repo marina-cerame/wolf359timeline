@@ -75,3 +75,5 @@ $(document).ready(() => {
 });
 
 // ========== TRYING OUT FEATURES ========== //
+
+// $('.tl-slide').append('')

@@ -4,11 +4,14 @@ const season1 = {
   text: { headline: 'Season 1' },
 };
 
+let titlecardText = 'This timeline is fan-created and may not reflect canon dates. <br>';
+titlecardText += 'Some dates are speculative, as no canon mission day is given.';
+
 const titlecard = {
   start_date: { year: 2014, month: 8, day: 15 },
   text: {
     headline: 'Wolf 359',
-    text: 'This timeline is fan-created and may not reflect canon dates. <br> Some dates are speculative, as no canon mission day is given. <br> <br> <small>Additionally, some dates may be innacurate because math.</small>',
+    text: titlecardText,
   },
 };
 

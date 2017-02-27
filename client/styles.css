@@ -20,7 +20,7 @@ body {
   width: 100%;
   background-color: rgba(225,225,225,0.25);
   margin-top: 45px;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 #timeline-embed {
@@ -29,67 +29,46 @@ body {
   margin: auto;
 }
 
-div.audio-status {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: block;
-  text-align: center;
-  color: rgba(225,225,225,0.8);
+.bottom-nav {
   width: 100%;
   background-color: rgba(0,0,0,0.25);
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 5px;
 }
 
+.credit {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.bottom-nav a, .audio-status {
+  color: rgba(225,225,225,0.8);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+.audio-status {
+  text-align: center;
+  width: 100px;
+}
+
 .tl-icon-music {
-  display: block;
   text-align: center;
   color: rgba(225,225,225,0.8);
-  width: 100%;
-  background-color: rgba(0,0,0,0.25);
   padding-bottom: 15px;
+  width: 100px;
+  margin: auto;
 }
 
-.popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 18%;
-    /*margin-left: -80px;*/
+p {
+  padding-top: 10px;
 }
 
-.popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    right: 80%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+.tl-headline-date {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-.show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
 
 /* not my things */
 
