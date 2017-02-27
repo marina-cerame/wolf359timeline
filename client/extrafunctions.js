@@ -8,7 +8,7 @@ $('#wolf-359').find('h3').css('display', 'none');
 $('p').css('color', 'black');
 
 // change background on slide change
-$('.tl-slidenav-icon, .tl-slidenav-title, .tl-slidenav-description, .tl-timemarker')
+$('.tl-slidenav-content-container, .tl-slidenav-content, .tl-timemarker')
   .click(() => {
     const currImage = $('body').css('background-image');
     const currNumber = Number(currImage[currImage.length - 7]);

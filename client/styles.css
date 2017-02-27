@@ -11,9 +11,9 @@
 body {
   background-color: black; transition: 1s;
   background-image: url("./backgrounds/bg1.png"); transition: 1s;
-  background-size: 100% 100% auto;
+  background-size: auto, auto;
   background-repeat: no-repeat;
-  background-position: center center fixed;
+  background-position: center center;
 }
 
 #timeline-container {
