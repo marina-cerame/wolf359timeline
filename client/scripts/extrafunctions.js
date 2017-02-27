@@ -1,7 +1,6 @@
 /* global $, document */
 
 $(document).ready(() => {
-
   // ========== STYLING CHANGES ========== //
   // Hide unnecessary elements on title card
   $('#wolf-359-marker').css('display', 'none');
@@ -40,8 +39,34 @@ $(document).ready(() => {
   // play audio based on episode
   $('body').on('slide-change', () => {
     if (audioStatus) {
+      $audio.pause();
       console.log($('.tl-timemarker-active').attr('id'));
       const title = $('.tl-timemarker-active').attr('id');
     }
   });
+
+// End document.ready
 });
+
+// ========== TRYING OUT FEATURES ========== //
+let displayDate;
+let reset = true;
+
+$('body').on('slide-change', () => {
+  reset = true;
+});
+
+$('.tl-headline-date')
+  .hover((e) => {
+    if (reset) {
+      displayDate = $(e.target).text();
+      reset = false;
+    }
+    $(e.target).fadeOut(250, () => {
+      $(e.target).text('new text!');
+    }).fadeIn(250);
+  }, (e) => {
+    $(e.target).fadeOut(250, () => {
+      $(e.target).text(displayDate);
+    }).fadeIn(250);
+  });
