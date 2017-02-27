@@ -1453,16 +1453,16 @@ only screen and (max-device-width: 500px) {
     background-color: #c34528
 }
 .tl-timeera.tl-timeera-color1 .tl-timeera-background {
-    background-color: #28a6c3
+    background-color: rgba(0,0,0,0.7)
 }
 .tl-timeera.tl-timeera-color2 .tl-timeera-background {
-    background-color: #2832c3
+    background-color: rgba(150,10,0,0.7)
 }
 .tl-timeera.tl-timeera-color3 .tl-timeera-background {
-    background-color: #28c36c
+    background-color: rgba(0,0,0,0.7)
 }
 .tl-timeera.tl-timeera-color4 .tl-timeera-background {
-    background-color: #286dc3
+    background-color: rgba(150,10,0,0.7)
 }
 .tl-timeera.tl-timeera-color5 .tl-timeera-background {
     background-color: #28c3a7
@@ -1618,7 +1618,7 @@ only screen and (max-device-width: 500px) {
     color: #FFF;
     width: 1px;
     overflow: hidden;
-    border-left: 1px solid #bfbfbf;
+    /*border-left: 1px solid #bfbfbf;*/
     text-align: center
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major.tl-timeaxis-animate .tl-timeaxis-tick,
