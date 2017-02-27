@@ -56,17 +56,22 @@ $('body').on('slide-change', () => {
   reset = true;
 });
 
+const headlineHoverIn = (e) => {
+  console.log($(e.target).parents('.tl-slide').attr('id'))
+  if (reset) {
+    displayDate = $(e.target).text();
+    reset = false;
+  }
+  $(e.target).fadeOut(250, () => {
+    $(e.target).text('new text!');
+  }).fadeIn(250);
+};
+
+const headlineHoverOut = (e) => {
+  $(e.target).fadeOut(250, () => {
+    $(e.target).text(displayDate);
+  }).fadeIn(250);
+};
+
 $('.tl-headline-date')
-  .hover((e) => {
-    if (reset) {
-      displayDate = $(e.target).text();
-      reset = false;
-    }
-    $(e.target).fadeOut(250, () => {
-      $(e.target).text('new text!');
-    }).fadeIn(250);
-  }, (e) => {
-    $(e.target).fadeOut(250, () => {
-      $(e.target).text(displayDate);
-    }).fadeIn(250);
-  });
+  .hover(headlineHoverIn, headlineHoverOut);
