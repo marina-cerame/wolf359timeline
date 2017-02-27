@@ -40,8 +40,8 @@ $(document).ready(() => {
   $('body').on('slide-change', () => {
     if (audioStatus) {
       $audio.pause();
-      console.log($('.tl-timemarker-active').attr('id'));
       const title = $('.tl-timemarker-active').attr('id');
+      console.log(title);
     }
   });
 
@@ -81,5 +81,3 @@ $(document).ready(() => {
 });
 
 // ========== TRYING OUT FEATURES ========== //
-
-// $('.tl-slide').append('')
