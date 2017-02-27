@@ -5,8 +5,6 @@ console.log('loading extra functions');
 $('#wolf-359-marker').css('display', 'none');
 $('#wolf-359').find('h3').css('display', 'none');
 
-$('p').css('color', 'black');
-
 // change background on slide change
 $('.tl-slidenav-content-container, .tl-slidenav-content, .tl-timemarker')
   .click(() => {
