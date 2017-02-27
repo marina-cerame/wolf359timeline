@@ -1,10 +1,8 @@
 /* global $, document */
 
 $(document).ready(() => {
-  console.log('loading extra functions');
-  $('audio')[0].play();
-  $('audio')[0].volume = 0.5;
 
+  // ========== STYLING CHANGES ========== //
   // Hide unnecessary elements on title card
   $('#wolf-359-marker').css('display', 'none');
   $('#wolf-359').find('h3').css('display', 'none');
@@ -16,7 +14,13 @@ $(document).ready(() => {
       $('body').css('background-image', `url("./backgrounds/bg${bgNumber}.jpg")`);
     });
 
-  // toggle audio
+  // ========== AUDIO CONTROLS ========== //
+  // Play Initial Audio
+  const $audio = $('audio')[0];
+  $audio.play();
+  $audio.volume = 0.7;
+
+  // Play/Mute Audio Control
   let audioStatus = true;
   $('.audio-status, .tl-icon-music').click(() => {
     // toggle audio status
@@ -27,9 +31,9 @@ $(document).ready(() => {
 
     // stop or resume audio
     if (!audioStatus) {
-      $('audio')[0].pause();
+      $audio.pause();
     } else {
-      $('audio')[0].play();
+      $audio.play();
     }
   });
 
