@@ -34,11 +34,12 @@ let securiteText = '<small>Written by Gabriel Urbina</small> <br>';
 securiteText += '';
 
 const securite = {
-  start_date: { year: 2015, month: 10, day: 5 },
+  start_date: { year: 2015, month: 10, day: 5, hour: 1 },
   text: {
     headline: 'Sécurité',
     text: securiteText,
   },
+  display_date: 'October 5, 2015'
 };
 
 let demolitionText = '<small>Written by Gabriel Urbina</small> <br>';
@@ -185,22 +186,24 @@ let desperateTimesText = '<small>Written by Gabriel Urbina</small> <br>';
 desperateTimesText += '';
 
 const desperateTimes = {
-  start_date: { year: 2016, month: 5, day: 10 },
+  start_date: { year: 2016, month: 5, day: 10, hour: 1 },
   text: {
     headline: 'Desperate Times',
     text: desperateTimesText,
   },
+  display_date: 'May 10, 2016'
 };
 
 let desperateMeasuresText = '<small>Written by Gabriel Urbina</small> <br>';
 desperateMeasuresText += '';
 
 const desperateMeasures = {
-  start_date: { year: 2016, month: 5, day: 10 },
+  start_date: { year: 2016, month: 5, day: 10, hour: 3 },
   text: {
     headline: 'Desperate Measures',
     text: desperateMeasuresText,
   },
+  display_date: 'May 10, 2016'
 };
 
 let boleroText = '<small>Written by Gabriel Urbina</small> <br>';

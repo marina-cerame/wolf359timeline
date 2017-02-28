@@ -1,6 +1,6 @@
 /* global episodes, season1, season2, season3 */
 
-const timelineObject = {
+const timelineInfo = {
   events: episodes,
   eras: [
     season1,
@@ -9,4 +9,6 @@ const timelineObject = {
   ],
 };
 
-const timeline = new TL.Timeline('timeline-embed', timelineObject, { scale_factor: 5 });
+const timelineOptions = { scale_factor: 9 };
+
+const timeline = new TL.Timeline('timeline-embed', timelineInfo, timelineOptions);

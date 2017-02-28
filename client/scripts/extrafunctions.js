@@ -108,6 +108,10 @@ $(document).ready(() => {
     'desperate-times': `${hephMission} 1082`,
     'desperate-measures': `${hephMission} 1082`,
     bolero: `${hephMission} 1083`,
+    'day-one': `${hephMission} 1`,
+    'deep-space-survival-procedure-and-protocol': `${hephMission} 663`,
+    'are-space-suits-itchy': '* No Mission Day Given',
+    meanwhile: '* No Mission Day Given'
   };
 
   $('body').on('slide-change', () => { shouldSave = true; });

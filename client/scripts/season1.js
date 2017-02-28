@@ -145,22 +145,24 @@ let deepBreathsText = '<small>Written by Gabriel Urbina</small> <br>';
 deepBreathsText += '';
 
 const deepBreaths = {
-  start_date: { year: 2014, month: 12, day: 25 },
+  start_date: { year: 2014, month: 12, day: 25, hour: 1 },
   text: {
     headline: 'Deep Breaths',
     text: deepBreathsText,
   },
+  display_date: 'December 25, 2014'
 };
 
 let gasMeText = '<small>Written by Gabriel Urbina</small> <br>';
 gasMeText += '';
 
 const gasMe = {
-  start_date: { year: 2014, month: 12, day: 25 },
+  start_date: { year: 2014, month: 12, day: 25, hour: 3 },
   text: {
     headline: 'Gas Me Twice',
     text: gasMeText,
   },
+  display_date: 'December 25, 2014',
 };
 
 
