@@ -13,18 +13,21 @@ $(document).ready(() => {
       $('body').css('background-image', `url("./backgrounds/bg${bgNumber}.jpg")`);
     });
 
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  if (isMobile) {
     $('.bottom-nav').css('display', 'none');
-  };
+  }
 
   // ========== AUDIO CONTROLS ========== //
   // Play Initial Audio
+  let audioStatus = !isMobile;
   const $audio = $('audio')[0];
-  $audio.play();
-  $audio.volume = 0.8;
+  if (audioStatus) {
+    $audio.play();
+    $audio.volume = 0.8;
+  }
 
   // Play/Mute Audio Control
-  let audioStatus = true;
   $('.audio-status, .tl-icon-music').click(() => {
     // toggle audio status
     audioStatus = !audioStatus;
