@@ -103,7 +103,6 @@ $(document).ready(() => {
   $('body').on('slide-change', () => { shouldSave = true; });
 
   const headlineHoverIn = (e) => {
-    console.log($(e.target).parents('.tl-slide').attr('id'));
     // get episode
     const title = $(e.target).parents('.tl-slide').attr('id');
 
