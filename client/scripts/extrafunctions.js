@@ -13,6 +13,10 @@ $(document).ready(() => {
       $('body').css('background-image', `url("./backgrounds/bg${bgNumber}.jpg")`);
     });
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $('.bottom-nav').css('display', 'none');
+  };
+
   // ========== AUDIO CONTROLS ========== //
   // Play Initial Audio
   const $audio = $('audio')[0];
