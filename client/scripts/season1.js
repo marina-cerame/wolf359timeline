@@ -161,7 +161,12 @@ const dangerBug = {
 };
 
 let aloneText = '<small>Written by Gabriel Urbina</small> <br>';
-aloneText += '';
+aloneText += '<ul><i>';
+aloneText += '  <li>Hilbert contemplates the human fear of being alone</li>';
+aloneText += '  <li>Hera contemplates the vastness of the universes and humans\' limited perception of it</li>';
+aloneText += '  <li>Eiffel takes a psych eval</li>';
+aloneText += '  <li>Minkowski sends a message home</li>';
+aloneText += '</i></ul>';
 
 const alone = {
   start_date: { year: 2014, month: 12, day: 11 },

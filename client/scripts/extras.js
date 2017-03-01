@@ -10,7 +10,7 @@ let spaceSuitsText = '<small>Written by Gabriel Urbina and Zach Valenti</small> 
 spaceSuitsText += 'Mini Episode 1 <br>';
 spaceSuitsText += '<ul><i>';
 spaceSuitsText += '  <li>Eiffel is a goodwill ambassador to the American public school system</li>';
-spaceSuitsText += '  <li>Eiffel admits to liking pineapple on pizza</li>'
+spaceSuitsText += '  <li>Eiffel admits to liking pineapple on pizza</li>';
 spaceSuitsText += '</i></ul>';
 
 const spaceSuits = {
