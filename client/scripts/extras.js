@@ -15,7 +15,7 @@ const spaceSuits = {
     headline: 'Are Space Suits Itchy?',
     text: spaceSuitsText,
   },
-  display_date: 'October 24, 2014*'
+  display_date: 'October 24, 2014*',
 };
 
 let dayOneText = '<small>Written by Gabriel Urbina</small> <br>';
@@ -29,16 +29,17 @@ const dayOne = {
   },
 };
 
-// let variationsText = '<small>Written by Gabriel Urbina</small> <br>';
-// variationsText += 'Mini Episode 3';
-//
-// const variations = {
-//   start_date: { year: 2015, month: 10, day: 5 },
-//   text: {
-//     headline: 'Variations on a Theme',
-//     text: variationsText,
-//   },
-// };
+let variationsText = '<small>Written by Gabriel Urbina</small> <br>';
+variationsText += 'Mini Episode 3';
+
+const variations = {
+  start_date: { year: 2015, month: 3, day: 13 },
+  text: {
+    headline: 'Variations on a Theme',
+    text: variationsText,
+  },
+  display_date: 'March 13, 2015*',
+};
 
 let meanwhileText = '<small>Written by Gabriel Urbina</small> <br>';
 meanwhileText += 'Mini Episode 4';
@@ -168,4 +169,5 @@ episodes = episodes.concat([
   dayOne,
   meanwhile,
   liveShow,
+  variations,
 ]);

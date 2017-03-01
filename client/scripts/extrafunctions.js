@@ -111,7 +111,8 @@ $(document).ready(() => {
     'day-one': `${hephMission} 1`,
     'deep-space-survival-procedure-and-protocol': `${hephMission} 663`,
     'are-space-suits-itchy': '* No Mission Day Given',
-    meanwhile: '* No Mission Day Given'
+    meanwhile: '* No Mission Day Given',
+    'variations-on-a-theme': '* No Mission Day Given',
   };
 
   $('body').on('slide-change', () => { shouldSave = true; });
