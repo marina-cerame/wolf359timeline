@@ -4,8 +4,9 @@ const season1 = {
   text: { headline: 'Season 1' },
 };
 
-let titleCardText = 'This timeline is fan-created and may not reflect canon dates. <br>';
-titleCardText += 'Some dates are speculative, as no canon mission day is given.';
+let titleCardText = 'This timeline is fan-created, some dates may be incorrect or speculative. <br><br>';
+titleCardText += '<b> Spoiler Warning:</b><br>';
+titleCardText += 'This timeline includes information on plot events of Wolf 359, which may result in spoilers if you are not caught up. User discretion is advised.';
 
 const titleCard = {
   start_date: { year: 2014, month: 8, day: 15 },
@@ -16,7 +17,10 @@ const titleCard = {
 };
 
 let ratKillingTarText = '<small>Written by Gabriel Urbina</small> <br>';
-ratKillingTarText += '';
+ratKillingTarText += '<ul><i>';
+ratKillingTarText += '  <li>Eiffel intercepts a radio signal in deep space</li>';
+ratKillingTarText += '  <li>Hilbert doesn\'t burn to death</li>';
+ratKillingTarText += '</i></ul>';
 
 const ratKillingTar = {
   start_date: { year: 2014, month: 8, day: 15 },
@@ -27,7 +31,10 @@ const ratKillingTar = {
 };
 
 let littleRevolucionText = '<small>Written by Gabriel Urbina</small> <br>';
-littleRevolucionText += '';
+littleRevolucionText += '<ul><i>';
+littleRevolucionText += '  <li>The Great Toothpaste Siege of Day 455</li>';
+littleRevolucionText += '  <li>Minkowski throws Eiffel in the <s>broom closet</s> brig</li>';
+littleRevolucionText += '</i></ul>';
 
 const littleRevolucion = {
   start_date: { year: 2014, month: 8, day: 22 },
@@ -38,7 +45,10 @@ const littleRevolucion = {
 };
 
 let discomfortsText = '<small>Written by Gabriel Urbina</small> <br>';
-discomfortsText += '';
+discomfortsText += '<ul><i>';
+discomfortsText += '  <li>Biannual physical day</li>';
+discomfortsText += '  <li>The Plant Monster is created</li>';
+discomfortsText += '</i></ul>';
 
 const discomforts = {
   start_date: { year: 2014, month: 9, day: 18 },
@@ -49,7 +59,9 @@ const discomforts = {
 };
 
 let cataractsText = '<small>Written by Gabriel Urbina</small> <br>';
-cataractsText += '';
+cataractsText += '<ul><i>';
+cataractsText += '  <li>Eiffel takes a space walk, is temporarily blinded, and only slightly drowned</li>';
+cataractsText += '</i></ul>';
 
 const cataracts = {
   start_date: { year: 2014, month: 9, day: 22 },
@@ -61,7 +73,10 @@ const cataracts = {
 };
 
 let cigaretteCandyText = '<small>Written by Gabriel Urbina</small> <br>';
-cigaretteCandyText += '';
+cigaretteCandyText += '<ul><i>';
+cigaretteCandyText += '  <li>Hilbert makes cigarette-flavored nicotine lozenges</li>';
+cigaretteCandyText += '  <li>Eiffel falls mysteriously ill</li>';
+cigaretteCandyText += '</i></ul>';
 
 const cigaretteCandy = {
   start_date: { year: 2014, month: 9, day: 26 },
@@ -73,7 +88,10 @@ const cigaretteCandy = {
 };
 
 let energySaverText = '<small>Written by Gabriel Urbina</small> <br>';
-energySaverText += '';
+energySaverText += '<ul><i>';
+energySaverText += '  <li>The Hephaestus loses power</li>';
+energySaverText += '  <li>Strange voices are heard on the station</li>';
+energySaverText += '</i></ul>';
 
 const energySaver = {
   start_date: { year: 2014, month: 10, day: 6 },
@@ -85,7 +103,11 @@ const energySaver = {
 };
 
 let soundAndFuryText = '<small>Written by Gabriel Urbina</small> <br>';
-soundAndFuryText += '';
+soundAndFuryText += '<ul><i>';
+soundAndFuryText += '  <li>Hera and Minkowski argue over station management</li>';
+soundAndFuryText += '  <li>Eiffel is caught in the middle</li>';
+soundAndFuryText += '  <li>Hilbert is posessed by the Plant Monster</li>';
+soundAndFuryText += '</i></ul>';
 
 const soundAndFury = {
   start_date: { year: 2014, month: 10, day: 18 },
@@ -96,7 +118,11 @@ const soundAndFury = {
 };
 
 let box953Text = '<small>Written by Gabriel Urbina</small> <br>';
-box953Text += '';
+box953Text += '<ul><i>';
+box953Text += '  <li>The quarterly talent show</li>';
+box953Text += '  <li>Minkowski attempts to put on </i>Pirates of Penzance<i>, succeeds in firing a canonball through the hull</li>';
+box953Text += '  <li>Eiffel does not find out what was in Box 953</li>';
+box953Text += '</i></ul>';
 
 const box953 = {
   start_date: { year: 2014, month: 10, day: 31 },
@@ -107,7 +133,9 @@ const box953 = {
 };
 
 let emptyManText = '<small>Written by Gabriel Urbina</small> <br>';
-emptyManText += '';
+emptyManText += '<ul><i>';
+emptyManText += '  <li>Command conducts a psychological experiment on the Hephaestus crew</li>';
+emptyManText += '</i></ul>';
 
 const emptyMan = {
   start_date: { year: 2014, month: 11, day: 5 },
@@ -118,7 +146,10 @@ const emptyMan = {
 };
 
 let dangerBugText = '<small>Written by Gabriel Urbina</small> <br>';
-dangerBugText += '';
+dangerBugText += '<ul><i>';
+dangerBugText += '  <li>The crew discovers a hidden lab and the logs of Dr. Selberg</li>';
+dangerBugText += '  <li>Eiffel has a close encouter with the Nightmare Death Spider</li>';
+dangerBugText += '</i></ul>';
 
 const dangerBug = {
   start_date: { year: 2014, month: 11, day: 27 },
@@ -150,7 +181,7 @@ const deepBreaths = {
     headline: 'Deep Breaths',
     text: deepBreathsText,
   },
-  display_date: 'December 25, 2014'
+  display_date: 'December 25, 2014',
 };
 
 let gasMeText = '<small>Written by Gabriel Urbina</small> <br>';

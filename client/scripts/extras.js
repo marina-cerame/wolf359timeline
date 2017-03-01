@@ -7,7 +7,11 @@
 // };
 
 let spaceSuitsText = '<small>Written by Gabriel Urbina and Zach Valenti</small> <br>';
-spaceSuitsText += 'Mini Episode 1';
+spaceSuitsText += 'Mini Episode 1 <br>';
+spaceSuitsText += '<ul><i>';
+spaceSuitsText += '  <li>Eiffel is a goodwill ambassador to the American public school system</li>';
+spaceSuitsText += '  <li>Eiffel admits to liking pineapple on pizza</li>'
+spaceSuitsText += '</i></ul>';
 
 const spaceSuits = {
   start_date: { year: 2014, month: 10, day: 24 },

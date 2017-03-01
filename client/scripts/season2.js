@@ -132,18 +132,19 @@ let superheroText = '<small>Written by Sarah Shachat</small> <br>';
 superheroText += '';
 
 const superhero = {
-  start_date: { year: 2015, month: 3, day: 14 },
+  start_date: { year: 2015, month: 3, day: 14, hour: 1 },
   text: {
     headline: 'Lame-o Superhero Origin Story',
     text: superheroText,
   },
+  display_date: 'March 14, 2015',
 };
 
 let noHarmText = '<small>Written by Zach Valenti</small> <br>';
 noHarmText += '';
 
 const noHarm = {
-  start_date: { year: 2015, month: 3, day: 14 },
+  start_date: { year: 2015, month: 3, day: 14, hour: 4 },
   end_date: { year: 2015, month: 3, day: 21 },
   text: {
     headline: 'Do No Harm',
