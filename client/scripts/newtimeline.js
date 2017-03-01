@@ -9,6 +9,6 @@ const timelineInfo = {
   ],
 };
 
-const timelineOptions = { scale_factor: 7, start_at_slide: 1, hash_bookmark: true };
+const timelineOptions = { scale_factor: 7, start_at_slide: 1 };
 
 const timeline = new TL.Timeline('timeline-embed', timelineInfo, timelineOptions);

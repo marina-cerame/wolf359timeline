@@ -162,8 +162,8 @@ const dangerBug = {
 
 let aloneText = '<small>Written by Gabriel Urbina</small> <br>';
 aloneText += '<ul><i>';
-aloneText += '  <li>Hilbert contemplates the human fear of being alone</li>';
-aloneText += '  <li>Hera contemplates the vastness of the universes and humans\' limited perception of it</li>';
+aloneText += '  <li>Hilbert contemplates human fears</li>';
+aloneText += '  <li>Hera looks for loopholes</li>';
 aloneText += '  <li>Eiffel takes a psych eval</li>';
 aloneText += '  <li>Minkowski sends a message home</li>';
 aloneText += '</i></ul>';
@@ -178,7 +178,12 @@ const alone = {
 };
 
 let deepBreathsText = '<small>Written by Gabriel Urbina</small> <br>';
-deepBreathsText += '';
+deepBreathsText += '<ul><i>';
+deepBreathsText += '  <li>Christmas on the Hephaestus</li>';
+deepBreathsText += '  <li>Hilbert discovers the radio transmissions are not from Earth</li>';
+deepBreathsText += '  <li>Eiffel has a brief moment of job satisfaction</li>';
+deepBreathsText += '  <li>Hilbert mutinies and takes control of the station</li>';
+deepBreathsText += '</i></ul>';
 
 const deepBreaths = {
   start_date: { year: 2014, month: 12, day: 25, hour: 1 },
@@ -190,7 +195,12 @@ const deepBreaths = {
 };
 
 let gasMeText = '<small>Written by Gabriel Urbina</small> <br>';
-gasMeText += '';
+gasMeText += '<ul><i>';
+gasMeText += '  <li>Eiffel and Hera start a fire</li>';
+gasMeText += '  <li>Minkowski punches Hilbert</li>';
+gasMeText += '  <li>Hilbert rips out Hera\'s personality core</li>';
+gasMeText += '  <li>Eiffel turns 32</li>';
+gasMeText += '</i></ul>';
 
 const gasMe = {
   start_date: { year: 2014, month: 12, day: 25, hour: 3 },
