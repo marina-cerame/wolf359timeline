@@ -60,7 +60,7 @@ const discomforts = {
 
 let cataractsText = '<small>Written by Gabriel Urbina</small> <br>';
 cataractsText += '<ul><i>';
-cataractsText += '  <li>Eiffel takes a space walk, is temporarily blinded, and only slightly drowned</li>';
+cataractsText += '  <li>Eiffel takes a spacewalk, is temporarily blinded and only slightly drowned</li>';
 cataractsText += '</i></ul>';
 
 const cataracts = {

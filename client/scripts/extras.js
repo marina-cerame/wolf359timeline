@@ -24,6 +24,9 @@ const spaceSuits = {
 
 let dayOneText = '<small>Written by Gabriel Urbina</small> <br>';
 dayOneText += 'Mini Episode 2';
+dayOneText += '<ul><i>';
+dayOneText += '  <li>The Hephaestus crew\'s first day on the station</li>';
+dayOneText += '</i></ul>';
 
 const dayOne = {
   start_date: { year: 2013, month: 5, day: 24 },
@@ -158,6 +161,12 @@ const meanwhile = {
 
 let liveShowText = '<small>Written by Gabriel Urbina and Sarah Shachat</small> <br>';
 liveShowText += 'Live Show';
+liveShowText += '<ul><i>';
+liveShowText += '  <li>Eiffel investigates a mysterious beeping noise</li>';
+liveShowText += '  <li>Lovelace\'s shuttle develops a new problem</li>';
+liveShowText += '  <li>Minkowski and Eiffel do some role-playing exercises</li>';
+liveShowText += '  <li>The crew gets a call from Mr. Cutter</li>';
+liveShowText += '</i></ul>';
 
 const liveShow = {
   start_date: { year: 2015, month: 3, day: 18 },
