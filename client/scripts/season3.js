@@ -36,7 +36,9 @@ const mayday = {
 };
 
 let securiteText = '<small>Written by Gabriel Urbina</small> <br>';
-securiteText += '';
+securiteText += '<ul><i>';
+securiteText += '  <li></li>';
+securiteText += '</i></ul>';
 
 const securite = {
   start_date: { year: 2015, month: 10, day: 5, hour: 1 },
@@ -48,7 +50,9 @@ const securite = {
 };
 
 let demolitionText = '<small>Written by Gabriel Urbina</small> <br>';
-demolitionText += '';
+demolitionText += '<ul><i>';
+demolitionText += '  <li></li>';
+demolitionText += '</i></ul>';
 
 const demolition = {
   start_date: { year: 2015, month: 10, day: 16 },
@@ -61,7 +65,9 @@ const demolition = {
 };
 
 let bearText = '<small>Written by Sarah Shachat</small> <br>';
-bearText += '';
+bearText += '<ul><i>';
+bearText += '  <li></li>';
+bearText += '</i></ul>';
 
 const bear = {
   start_date: { year: 2015, month: 11, day: 30 },
@@ -72,7 +78,9 @@ const bear = {
 };
 
 let perspectiveText = '<small>Written by Gabriel Urbina</small> <br>';
-perspectiveText += '';
+perspectiveText += '<ul><i>';
+perspectiveText += '  <li></li>';
+perspectiveText += '</i></ul>';
 
 const perspective = {
   start_date: { year: 2015, month: 12, day: 24 },
@@ -84,7 +92,9 @@ const perspective = {
 };
 
 let needToKnowText = '<small>Written by Gabriel Urbina</small> <br>';
-needToKnowText += '';
+needToKnowText += '<ul><i>';
+needToKnowText += '  <li></li>';
+needToKnowText += '</i></ul>';
 
 const needToKnow = {
   start_date: { year: 2016, month: 1, day: 6 },
@@ -96,7 +106,9 @@ const needToKnow = {
 };
 
 let brimstoneText = '<small>Written by Emma Sherr-Ziarko</small> <br>';
-brimstoneText += '';
+brimstoneText += '<ul><i>';
+brimstoneText += '  <li></li>';
+brimstoneText += '</i></ul>';
 
 const brimstone = {
   start_date: { year: 2016, month: 1, day: 21 },
@@ -108,7 +120,9 @@ const brimstone = {
 };
 
 let overtureText = '<small>Written by Sarah Shachat</small> <br>';
-overtureText += '';
+overtureText += '<ul><i>';
+overtureText += '  <li></li>';
+overtureText += '</i></ul>';
 
 const overture = {
   start_date: { year: 2016, month: 2, day: 8 },
@@ -120,7 +134,9 @@ const overture = {
 };
 
 let happyEndingsText = '<small>Written by Gabriel Urbina</small> <br>';
-happyEndingsText += '';
+happyEndingsText += '<ul><i>';
+happyEndingsText += '  <li></li>';
+happyEndingsText += '</i></ul>';
 
 const happyEndings = {
   start_date: { year: 2016, month: 2, day: 28 },
@@ -132,7 +148,9 @@ const happyEndings = {
 };
 
 let consideredText = '<small>Written by Sarah Shachat</small> <br>';
-consideredText += '';
+consideredText += '<ul><i>';
+consideredText += '  <li></li>';
+consideredText += '</i></ul>';
 
 const considered = {
   start_date: { year: 2016, month: 3, day: 12 },
@@ -143,7 +161,9 @@ const considered = {
 };
 
 let limboText = '<small>Written by Sarah Shachat</small> <br>';
-limboText += '';
+limboText += '<ul><i>';
+limboText += '  <li></li>';
+limboText += '</i></ul>';
 
 const limbo = {
   start_date: { year: 2016, month: 3, day: 30 },
@@ -154,7 +174,9 @@ const limbo = {
 };
 
 let memoriaText = '<small>Written by Gabriel Urbina</small> <br>';
-memoriaText += '';
+memoriaText += '<ul><i>';
+memoriaText += '  <li></li>';
+memoriaText += '</i></ul>';
 
 const memoria = {
   start_date: { year: 2016, month: 3, day: 30 },
@@ -166,7 +188,9 @@ const memoria = {
 };
 
 let timeToKillText = '<small>Written by Sarah Shachat</small> <br>';
-timeToKillText += '';
+timeToKillText += '<ul><i>';
+timeToKillText += '  <li></li>';
+timeToKillText += '</i></ul>';
 
 const timeToKill = {
   start_date: { year: 2016, month: 4, day: 26 },
@@ -177,7 +201,9 @@ const timeToKill = {
 };
 
 let persuasionText = '<small>Written by Zach Valenti</small> <br>';
-persuasionText += '';
+persuasionText += '<ul><i>';
+persuasionText += '  <li></li>';
+persuasionText += '</i></ul>';
 
 const persuasion = {
   start_date: { year: 2016, month: 5, day: 9 },
@@ -188,7 +214,9 @@ const persuasion = {
 };
 
 let desperateTimesText = '<small>Written by Gabriel Urbina</small> <br>';
-desperateTimesText += '';
+desperateTimesText += '<ul><i>';
+desperateTimesText += '  <li></li>';
+desperateTimesText += '</i></ul>';
 
 const desperateTimes = {
   start_date: { year: 2016, month: 5, day: 10, hour: 1 },
@@ -200,7 +228,9 @@ const desperateTimes = {
 };
 
 let desperateMeasuresText = '<small>Written by Gabriel Urbina</small> <br>';
-desperateMeasuresText += '';
+desperateMeasuresText += '<ul><i>';
+desperateMeasuresText += '  <li></li>';
+desperateMeasuresText += '</i></ul>';
 
 const desperateMeasures = {
   start_date: { year: 2016, month: 5, day: 10, hour: 3 },
@@ -212,7 +242,9 @@ const desperateMeasures = {
 };
 
 let boleroText = '<small>Written by Gabriel Urbina</small> <br>';
-boleroText += '';
+boleroText += '<ul><i>';
+boleroText += '  <li></li>';
+boleroText += '</i></ul>';
 
 const bolero = {
   start_date: { year: 2016, month: 5, day: 11 },
