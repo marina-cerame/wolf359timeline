@@ -7,7 +7,10 @@ const season3 = {
 };
 
 let panPanText = '<small>Written by Gabriel Urbina</small> <br>';
-panPanText += '';
+panPanText += '<ul><i>';
+panPanText += '  <li>The remaining crew scrapes by as the station deteriorates</li>';
+panPanText += '  <li>Minkowski sends a distress call to Command</li>';
+panPanText += '</i></ul>';
 
 const panPan = {
   start_date: { year: 2015, month: 7, day: 15 },
@@ -18,7 +21,9 @@ const panPan = {
 };
 
 let maydayText = '<small>Written by Gabriel Urbina</small> <br>';
-maydayText += '';
+maydayText += '<ul><i>';
+maydayText += '  <li>Eiffel spends roughly 6 months lost in space</li>';
+maydayText += '</i></ul>';
 
 const mayday = {
   start_date: { year: 2015, month: 3, day: 21, hour: 18 },
@@ -39,7 +44,7 @@ const securite = {
     headline: 'Sécurité',
     text: securiteText,
   },
-  display_date: 'October 5, 2015'
+  display_date: 'October 5, 2015',
 };
 
 let demolitionText = '<small>Written by Gabriel Urbina</small> <br>';
@@ -191,7 +196,7 @@ const desperateTimes = {
     headline: 'Desperate Times',
     text: desperateTimesText,
   },
-  display_date: 'May 10, 2016'
+  display_date: 'May 10, 2016',
 };
 
 let desperateMeasuresText = '<small>Written by Gabriel Urbina</small> <br>';
@@ -203,7 +208,7 @@ const desperateMeasures = {
     headline: 'Desperate Measures',
     text: desperateMeasuresText,
   },
-  display_date: 'May 10, 2016'
+  display_date: 'May 10, 2016',
 };
 
 let boleroText = '<small>Written by Gabriel Urbina</small> <br>';

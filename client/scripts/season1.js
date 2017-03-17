@@ -6,7 +6,7 @@ const season1 = {
 
 let titleCardText = 'This timeline is fan-created, some dates may be incorrect or speculative. <br><br>';
 titleCardText += '<b> Spoiler Warning:</b><br>';
-titleCardText += 'This timeline includes information on plot events of Wolf 359, which may result in spoilers if you are not caught up. User discretion is advised.';
+titleCardText += 'This timeline includes information on plot events of Wolf 359, which may result in <b>spoilers</b> if you are not caught up. User discretion is advised.';
 
 const titleCard = {
   start_date: { year: 2014, month: 8, day: 15 },
@@ -120,7 +120,7 @@ const soundAndFury = {
 let box953Text = '<small>Written by Gabriel Urbina</small> <br>';
 box953Text += '<ul><i>';
 box953Text += '  <li>The quarterly talent show</li>';
-box953Text += '  <li>Minkowski attempts to put on </i>Pirates of Penzance<i>, succeeds in firing a canonball through the hull</li>';
+box953Text += '  <li>Minkowski attempts to put on </i>Pirates of Penzance<i>, succeeds in firing a cannonball through the hull</li>';
 box953Text += '  <li>Eiffel does not find out what was in Box 953</li>';
 box953Text += '</i></ul>';
 

@@ -38,6 +38,9 @@ const dayOne = {
 
 let variationsText = '<small>Written by Gabriel Urbina</small> <br>';
 variationsText += 'Mini Episode 3';
+variationsText += '<ul><i>';
+variationsText += '  <li>Captain Lovelace reflects on her time on the Hephaestus</li>';
+variationsText += '</i></ul>';
 
 const variations = {
   start_date: { year: 2015, month: 3, day: 13 },
