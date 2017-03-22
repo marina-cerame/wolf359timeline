@@ -48,10 +48,15 @@ $(document).ready(() => {
 
   // play audio based on episode
   $('body').on('slide-change', () => {
+    $audio.pause();
+    const title = $('.tl-timemarker-active').attr('id');
+    if (title === 'succulent-rat-killing-tar-marker') {
+      $audio.src = './audio/320905__suzenako__the-ding.wav';
+    } else {
+      $audio.src = './audio/174027__robni7__news-ting.wav';
+    }
     if (audioStatus) {
-      $audio.pause();
-      const title = $('.tl-timemarker-active').attr('id');
-      // console.log(title);
+      $audio.play();
     }
   });
 
