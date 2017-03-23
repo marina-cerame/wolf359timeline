@@ -37,7 +37,8 @@ const mayday = {
 
 let securiteText = '<small>Written by Gabriel Urbina</small> <br>';
 securiteText += '<ul><i>';
-securiteText += '  <li></li>';
+securiteText += '  <li>SI-5 agents Col. Kepler, Mr. Jacobi, and Dr. Maxwell arrive on the Hephaestus</li>';
+securiteText += '  <li>Kepler takes command of the station</li>';
 securiteText += '</i></ul>';
 
 const securite = {

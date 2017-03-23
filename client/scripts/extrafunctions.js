@@ -50,10 +50,22 @@ $(document).ready(() => {
   $('body').on('slide-change', () => {
     $audio.pause();
     const title = $('.tl-timemarker-active').attr('id');
-    if (title === 'succulent-rat-killing-tar-marker') {
-      $audio.src = './audio/320905__suzenako__the-ding.wav';
-    } else {
-      $audio.src = './audio/174027__robni7__news-ting.wav';
+    console.log(title);
+    switch (title) {
+      case 'succulent-rat-killing-tar-marker' :
+        $audio.src = 'http://feeds.soundcloud.com/stream/314106152-rinasaurus-rex-timeline-snippet-rat-killing-tar.mp3';
+        break;
+      case 'little-revolucion-marker' :
+        $audio.src = 'http://feeds.soundcloud.com/stream/314108343-rinasaurus-rex-timeline-snippet-little-revolucion.mp3';
+        break;
+      case 'discomforts-pains-and-irregularities-marker' :
+        $audio.src = 'http://feeds.soundcloud.com/stream/314110050-rinasaurus-rex-timeline-snippet-discomforts-pains-and-irregularities.mp3';
+        break;
+      case 'cataracts-and-hurricanoes-marker' :
+        $audio.src = 'http://feeds.soundcloud.com/stream/314112057-rinasaurus-rex-timeline-snippet-cataracts-and-hurricanoes.mp3';
+        break;
+      default:
+        $audio.src = 'http://feeds.soundcloud.com/stream/314106624-rinasaurus-rex-timeline-snippet-main-title.mp3';
     }
     if (audioStatus) {
       $audio.play();
