@@ -46,27 +46,30 @@ $(document).ready(() => {
     }
   });
 
+  // audio link helper object
+  const audioLinks = {
+    'wolf-359-marker': 'http://feeds.soundcloud.com/stream/314106624-rinasaurus-rex-timeline-snippet-main-title.mp3',
+    'succulent-rat-killing-tar-marker': 'http://feeds.soundcloud.com/stream/314106152-rinasaurus-rex-timeline-snippet-rat-killing-tar.mp3',
+    'little-revolucion-marker': 'http://feeds.soundcloud.com/stream/314108343-rinasaurus-rex-timeline-snippet-little-revolucion.mp3',
+    'discomforts-pains-and-irregularities-marker': 'http://feeds.soundcloud.com/stream/314110050-rinasaurus-rex-timeline-snippet-discomforts-pains-and-irregularities.mp3',
+    'cataracts-and-hurricanoes-marker': 'http://feeds.soundcloud.com/stream/314112057-rinasaurus-rex-timeline-snippet-cataracts-and-hurricanoes.mp3',
+    'cigarette-candy-marker': 'http://feeds.soundcloud.com/stream/314114894-rinasaurus-rex-timeline-snippet-cigarette-candy.mp3',
+    'super-energy-saver-mode-marker': 'http://feeds.soundcloud.com/stream/314119814-rinasaurus-rex-timeline-snippet-super-energy-saver-mode.mp3',
+    'the-sound-and-the-fury-marker': 'http://feeds.soundcloud.com/stream/314121645-rinasaurus-rex-timeline-snippet-the-sound-and-the-fury.mp3',
+    'are-space-suits-itchy-marker': 'http://feeds.soundcloud.com/stream/314120826-rinasaurus-rex-timeline-snippet-are-space-suits-itchy.mp3',
+    'box-953-marker': 'http://feeds.soundcloud.com/stream/314125898-rinasaurus-rex-timeline-snippet-box-953.mp3',
+    'the-empty-man-cometh-marker': 'http://feeds.soundcloud.com/stream/314126585-rinasaurus-rex-timeline-snippet-the-empty-man-cometh.mp3',
+    'extreme-danger-bug-marker': 'http://feeds.soundcloud.com/stream/314127391-rinasaurus-rex-timeline-snippet-extreme-danger-bug.mp3',
+    'am-i-alone-now-marker': 'http://feeds.soundcloud.com/stream/314129276-rinasaurus-rex-timeline-snippet-am-i-alone-now.mp3',
+    'deep-breaths-marker': 'http://feeds.soundcloud.com/stream/314128745-rinasaurus-rex-timeline-snippet-deep-breaths.mp3',
+    'gas-me-twice-marker': 'http://feeds.soundcloud.com/stream/314130181-rinasaurus-rex-timeline-snippet-gas-me-twice.mp3',
+  };
+
   // play audio based on episode
   $('body').on('slide-change', () => {
-    $audio.pause();
     const title = $('.tl-timemarker-active').attr('id');
     console.log(title);
-    switch (title) {
-      case 'succulent-rat-killing-tar-marker' :
-        $audio.src = 'http://feeds.soundcloud.com/stream/314106152-rinasaurus-rex-timeline-snippet-rat-killing-tar.mp3';
-        break;
-      case 'little-revolucion-marker' :
-        $audio.src = 'http://feeds.soundcloud.com/stream/314108343-rinasaurus-rex-timeline-snippet-little-revolucion.mp3';
-        break;
-      case 'discomforts-pains-and-irregularities-marker' :
-        $audio.src = 'http://feeds.soundcloud.com/stream/314110050-rinasaurus-rex-timeline-snippet-discomforts-pains-and-irregularities.mp3';
-        break;
-      case 'cataracts-and-hurricanoes-marker' :
-        $audio.src = 'http://feeds.soundcloud.com/stream/314112057-rinasaurus-rex-timeline-snippet-cataracts-and-hurricanoes.mp3';
-        break;
-      default:
-        $audio.src = 'http://feeds.soundcloud.com/stream/314106624-rinasaurus-rex-timeline-snippet-main-title.mp3';
-    }
+    $audio.src = audioLinks[title];
     if (audioStatus) {
       $audio.play();
     }
