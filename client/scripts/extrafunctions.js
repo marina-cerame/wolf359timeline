@@ -18,7 +18,7 @@ $(document).ready(() => {
     });
 
   if (isMobile) {
-    $('.bottom-nav').css('display', 'none');
+    $('.audio').css('display', 'none');
   }
 
   // ========== AUDIO CONTROLS ========== //
