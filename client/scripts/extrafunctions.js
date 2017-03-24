@@ -75,11 +75,11 @@ $(document).ready(() => {
     'no-pressure-marker': 'http://feeds.soundcloud.com/stream/314183600-rinasaurus-rex-timeline-snippet-no-pressure.mp3',
     'tactical-brain-damage-marker': 'http://feeds.soundcloud.com/stream/314188090-rinasaurus-rex-timeline-snippet-tactical-brain-damage.mp3',
     'variations-on-a-theme-marker': 'http://feeds.soundcloud.com/stream/314188997-rinasaurus-rex-timeline-snippet-variations-on-a-theme.mp3',
-    'lame-o-superhero-origin-story-marker': '',
-    'do-no-harm-marker': '',
-    'deep-space-survival-procedure-and-protocol-marker': '',
-    'knock-knock-marker': '',
-    'whos-there-marker': '',
+    'lame-o-superhero-origin-story-marker': 'http://feeds.soundcloud.com/stream/314189880-rinasaurus-rex-timeline-snippet-lame-o-superhero-origin-story.mp3',
+    'do-no-harm-marker': 'http://feeds.soundcloud.com/stream/314272523-rinasaurus-rex-timeline-snippet-do-no-harm.mp3',
+    'deep-space-survival-procedure-and-protocol-marker': 'http://feeds.soundcloud.com/stream/314274164-rinasaurus-rex-timeline-snippet-wolf-359-live.mp3',
+    'knock-knock-marker': 'http://feeds.soundcloud.com/stream/314275667-rinasaurus-rex-timeline-snippet-knock-knock.mp3',
+    'whos-there-marker': 'http://feeds.soundcloud.com/stream/314279533-rinasaurus-rex-timeline-snippet-whos-there.mp3',
   };
 
   // play audio based on episode
