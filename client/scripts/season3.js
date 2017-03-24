@@ -167,11 +167,12 @@ limboText += '  <li></li>';
 limboText += '</i></ul>';
 
 const limbo = {
-  start_date: { year: 2016, month: 3, day: 30 },
+  start_date: { year: 2016, month: 3, day: 30, hour: 1 },
   text: {
     headline: 'Limbo',
     text: limboText,
   },
+  display_date: 'March 30, 2016',
 };
 
 let memoriaText = '<small>Written by Gabriel Urbina</small> <br>';
@@ -180,12 +181,13 @@ memoriaText += '  <li></li>';
 memoriaText += '</i></ul>';
 
 const memoria = {
-  start_date: { year: 2016, month: 3, day: 30 },
+  start_date: { year: 2016, month: 3, day: 30, hour: 3 },
   end_date: { year: 2016, month: 4, day: 1 },
   text: {
     headline: 'Memoria',
     text: memoriaText,
   },
+  display_date: 'March 30 2016 - April 1 2016',
 };
 
 let timeToKillText = '<small>Written by Sarah Shachat</small> <br>';
