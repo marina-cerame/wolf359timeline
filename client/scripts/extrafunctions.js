@@ -63,6 +63,23 @@ $(document).ready(() => {
     'am-i-alone-now-marker': 'http://feeds.soundcloud.com/stream/314129276-rinasaurus-rex-timeline-snippet-am-i-alone-now.mp3',
     'deep-breaths-marker': 'http://feeds.soundcloud.com/stream/314128745-rinasaurus-rex-timeline-snippet-deep-breaths.mp3',
     'gas-me-twice-marker': 'http://feeds.soundcloud.com/stream/314130181-rinasaurus-rex-timeline-snippet-gas-me-twice.mp3',
+    'the-kumbaya-approach-marker': 'http://feeds.soundcloud.com/stream/314154828-rinasaurus-rex-timeline-snippet-kumbaya-approach.mp3',
+    'whats-up-doc-marker': 'http://feeds.soundcloud.com/stream/314157948-rinasaurus-rex-timeline-snippet-whats-up-doc.mp3',
+    'painfully-ever-after-marker': 'http://feeds.soundcloud.com/stream/314158634-rinasaurus-rex-timeline-snippet-painfully-ever-after.mp3',
+    'bach-to-the-future-marker': 'http://feeds.soundcloud.com/stream/314162985-rinasaurus-rex-timeline-snippet-bach-to-the-future.mp3',
+    'happy-to-be-of-assistance-marker': 'http://feeds.soundcloud.com/stream/314165528-rinasaurus-rex-timeline-snippet-happy-to-be-of-assistance.mp3',
+    'lets-kill-hilbert-marker': 'http://feeds.soundcloud.com/stream/314166634-rinasaurus-rex-timeline-snippet-lets-kill-hilbert.mp3',
+    'the-paranoia-game-marker': 'http://feeds.soundcloud.com/stream/314179624-rinasaurus-rex-timeline-snippet-paranoia-game.mp3',
+    'minkowski-commanding-marker': 'http://feeds.soundcloud.com/stream/314181043-rinasaurus-rex-timeline-snippet-minkowski-commanding.mp3',
+    'mutually-assured-destruction-marker': 'http://feeds.soundcloud.com/stream/314182659-rinasaurus-rex-timeline-snippet-mutually-assured-destruction.mp3',
+    'no-pressure-marker': 'http://feeds.soundcloud.com/stream/314183600-rinasaurus-rex-timeline-snippet-no-pressure.mp3',
+    'tactical-brain-damage-marker': '',
+    'variations-on-a-theme-marker': '',
+    'lame-o-superhero-origin-story-marker': '',
+    'do-no-harm-marker': '',
+    'deep-space-survival-procedure-and-protocol-marker': '',
+    'knock-knock-marker': '',
+    'whos-there-marker': '',
   };
 
   // play audio based on episode
