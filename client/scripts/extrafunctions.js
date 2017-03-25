@@ -23,7 +23,7 @@ $(document).ready(() => {
 
   // ========== AUDIO CONTROLS ========== //
   // Play Initial Audio
-  let audioStatus = true;
+  let audioStatus = !isMobile;
   const $audio = $('audio')[0];
   if (audioStatus) {
     $audio.play();
