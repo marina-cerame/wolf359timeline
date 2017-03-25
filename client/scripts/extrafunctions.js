@@ -98,14 +98,14 @@ $(document).ready(() => {
     'time-to-kill-marker': 'http://feeds.soundcloud.com/stream/314315622-rinasaurus-rex-timeline-snippet-time-to-kill.mp3',
     'persuasion-marker': 'http://feeds.soundcloud.com/stream/314317310-rinasaurus-rex-timeline-snippet-persuasion.mp3',
     'desperate-times-marker': 'http://feeds.soundcloud.com/stream/314317986-rinasaurus-rex-timeline-snippet-desperate-times.mp3',
-    'desperate-measures-marker': '',
-    'bolero-marker': '',
+    'desperate-measures-marker': 'http://feeds.soundcloud.com/stream/314345272-rinasaurus-rex-timeline-snippet-desperate-measures.mp3',
+    'bolero-marker': 'http://feeds.soundcloud.com/stream/314345759-rinasaurus-rex-timeline-snippet-bolero.mp3',
   };
 
   // play audio based on episode
   $('body').on('slide-change', () => {
     const title = $('.tl-timemarker-active').attr('id');
-    console.log(title);
+    // console.log(title);
     $audio.src = audioLinks[title];
     if (audioStatus) {
       $audio.play();
