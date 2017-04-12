@@ -17,13 +17,13 @@ $(document).ready(() => {
       }
     });
 
-  // if (isMobile) {
-  //   $('.audio').css('display', 'none');
+  if (isMobile) {
+    $('.audio').css('display', 'none');
   }
 
   // ========== AUDIO CONTROLS ========== //
   // Play Initial Audio
-  let audioStatus = true;
+  let audioStatus = !isMobile;
   const $audio = $('audio')[0];
   if (audioStatus) {
     $audio.play();
