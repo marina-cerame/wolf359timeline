@@ -263,9 +263,9 @@ const braveNewWorld = {
 };
 
 episodes = episodes.concat([
-  intoTheDepths,
+  // intoTheDepths,
   // thetaScenario,
-  outOfTheLoop,
+  // outOfTheLoop,
   // hiccupsMethod,
   // shutUpAndListen,
   // constructiveCriticism,
