@@ -103,14 +103,15 @@ $(document).ready(() => {
   };
 
   // play audio based on episode
-  $('body').on('slide-change', () => {
-    const title = $('.tl-timemarker-active').attr('id');
-    // console.log(title);
-    $audio.src = audioLinks[title];
-    if (audioStatus) {
-      $audio.play();
-    }
-  });
+  // TODO: Re-up the audio files so we can enable the audio player again
+  // $('body').on('slide-change', () => {
+  //   const title = $('.tl-timemarker-active').attr('id');
+  //   // console.log(title);
+  //   $audio.src = audioLinks[title];
+  //   if (audioStatus) {
+  //     $audio.play();
+  //   }
+  // });
 
 // ========== DISPLAY DATE/MISSION DAY ========== //
 // necessary variables and helpers
@@ -172,6 +173,7 @@ $(document).ready(() => {
 
     // season 4
     'into-the-depths': `${hephMission} 1083`,
+    'out-of-the-loop': `${hephMission} 1093`,
     // mini episodes
     'day-one': `${hephMission} 1`,
     'deep-space-survival-procedure-and-protocol': `${hephMission} 663`,
@@ -180,6 +182,8 @@ $(document).ready(() => {
     'variations-on-a-theme': '* No Mission Day Given',
 
     // mission mishaps
+
+    // birthdays
   };
 
   $('body').on('slide-change', () => { shouldSave = true; });

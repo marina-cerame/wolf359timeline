@@ -41,20 +41,18 @@ const thetaScenario = {
 };
 
 // Out of the Loop
-let outOfTheLoopText = '<small>Written by Gabriel Urbina and Zach Valenti</small> <br>';
-outOfTheLoopText += 'Mini Episode 1 <br>';
+let outOfTheLoopText = '<small>Written by Sarah Shachat</small> <br>';
 outOfTheLoopText += '<ul><i>';
-outOfTheLoopText += '  <li>Eiffel is a goodwill ambassador to the American public school system</li>';
-outOfTheLoopText += '  <li>Eiffel admits to liking pineapple on pizza</li>';
+outOfTheLoopText += '  <li>The crew are caught in a time loop</li>';
 outOfTheLoopText += '</i></ul>';
 
 const outOfTheLoop = {
-  start_date: { year: 2014, month: 10, day: 24 },
+  start_date: { year: 2016, month: 5, day: 21 },
   text: {
-    headline: 'Are Space Suits Itchy?',
+    headline: 'Out of the Loop',
     text: outOfTheLoopText,
   },
-  display_date: 'October 24, 2014*',
+  display_date: 'May 21, 2016',
 };
 
 // The Hiccups Method
@@ -264,7 +262,7 @@ const braveNewWorld = {
 episodes = episodes.concat([
   intoTheDepths,
   // thetaScenario,
-  // outOfTheLoop,
+  outOfTheLoop,
   // hiccupsMethod,
   // shutUpAndListen,
   // constructiveCriticism,
