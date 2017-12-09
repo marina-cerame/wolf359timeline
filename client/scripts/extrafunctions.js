@@ -132,6 +132,8 @@ $(document).ready(() => {
     'am-i-alone-now': '* No Mission Day Given',
     'deep-breaths': `${hephMission} 580`,
     'gas-me-twice': `${hephMission} 580`,
+
+    // season 2
     'the-kumbaya-approach': `${hephMission} 581`,
     'whats-up-doc': `${hephMission} 583`,
     'painfully-ever-after': `${hephMission} 597`,
@@ -147,6 +149,8 @@ $(document).ready(() => {
     'do-no-harm': `${hephMission} 659 to 666`,
     'knock-knock': `${hephMission} 666`,
     'whos-there': `${hephMission} 666`,
+
+    // season 3
     mayday: `${hephMission} 666 to 859`,
     'pan-pan': `${hephMission} 782`,
     securite: `${hephMission} 864`,
@@ -165,11 +169,17 @@ $(document).ready(() => {
     'desperate-times': `${hephMission} 1082`,
     'desperate-measures': `${hephMission} 1082`,
     bolero: `${hephMission} 1083`,
+
+    // season 4
+    'into-the-depths': `${hephMission} 1083`,
+    // mini episodes
     'day-one': `${hephMission} 1`,
     'deep-space-survival-procedure-and-protocol': `${hephMission} 663`,
     'are-space-suits-itchy': '* No Mission Day Given',
     meanwhile: '* No Mission Day Given',
     'variations-on-a-theme': '* No Mission Day Given',
+
+    // mission mishaps
   };
 
   $('body').on('slide-change', () => { shouldSave = true; });

@@ -8,20 +8,19 @@
 
 
 // Into the Depths
-let intoTheDepthsText = '<small>Written by Gabriel Urbina and Zach Valenti</small> <br>';
-intoTheDepthsText += 'Mini Episode 1 <br>';
+let intoTheDepthsText = '<small>Written by Gabriel Urbina</small> <br>';
 intoTheDepthsText += '<ul><i>';
-intoTheDepthsText += '  <li>Eiffel is a goodwill ambassador to the American public school system</li>';
-intoTheDepthsText += '  <li>Eiffel admits to liking pineapple on pizza</li>';
+intoTheDepthsText += '  <li>Lovelace recovers</li>';
+intoTheDepthsText += '  <li>The Dear Listeners make contact</li>';
 intoTheDepthsText += '</i></ul>';
 
 const intoTheDepths = {
-  start_date: { year: 2014, month: 10, day: 24 },
+  start_date: { year: 2016, month: 5, day: 11, hour: 2 },
   text: {
-    headline: 'Are Space Suits Itchy?',
+    headline: 'Into the Depths',
     text: intoTheDepthsText,
   },
-  display_date: 'October 24, 2014*',
+  display_date: 'May 11, 2016',
 };
 
 // Theta Scenario
@@ -263,7 +262,7 @@ const braveNewWorld = {
 };
 
 episodes = episodes.concat([
-  // intoTheDepths,
+  intoTheDepths,
   // thetaScenario,
   // outOfTheLoop,
   // hiccupsMethod,

@@ -269,11 +269,12 @@ boleroText += '  <li>Lovelace is revealed to be an alien</li>';
 boleroText += '</i></ul>';
 
 const bolero = {
-  start_date: { year: 2016, month: 5, day: 11 },
+  start_date: { year: 2016, month: 5, day: 11, hour: 1 },
   text: {
     headline: 'Boléro',
     text: boleroText,
   },
+  display_date: 'May 11, 2016'
 };
 
 episodes = episodes.concat([
