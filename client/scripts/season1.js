@@ -4,9 +4,11 @@ const season1 = {
   text: { headline: 'Season 1' },
 };
 
-let titleCardText = 'This timeline is fan-created, some dates may be incorrect or speculative. <br><br>';
+let titleCardText =
+  'This timeline is fan-created, some dates may be incorrect or speculative. <br><br>';
 titleCardText += '<b> Spoiler Warning:</b><br>';
-titleCardText += 'This timeline includes information on plot events of Wolf 359, which may result in <b>spoilers</b> if you are not caught up. User discretion is advised.';
+titleCardText +=
+  'This timeline includes information on plot events of Wolf 359, which may result in <b>spoilers</b> if you are not caught up. User discretion is advised.';
 
 const titleCard = {
   start_date: { year: 2014, month: 8, day: 15 },
@@ -18,8 +20,9 @@ const titleCard = {
 
 let ratKillingTarText = '<small>Written by Gabriel Urbina</small> <br>';
 ratKillingTarText += '<ul><i>';
-ratKillingTarText += '  <li>Eiffel intercepts a radio signal in deep space</li>';
-ratKillingTarText += '  <li>Hilbert doesn\'t burn to death</li>';
+ratKillingTarText +=
+  '  <li>Eiffel intercepts a radio signal in deep space</li>';
+ratKillingTarText += "  <li>Hilbert doesn't burn to death</li>";
 ratKillingTarText += '</i></ul>';
 
 const ratKillingTar = {
@@ -33,7 +36,8 @@ const ratKillingTar = {
 let littleRevolucionText = '<small>Written by Gabriel Urbina</small> <br>';
 littleRevolucionText += '<ul><i>';
 littleRevolucionText += '  <li>The Great Toothpaste Siege of Day 455</li>';
-littleRevolucionText += '  <li>Minkowski throws Eiffel in the <s>broom closet</s> brig</li>';
+littleRevolucionText +=
+  '  <li>Minkowski throws Eiffel in the <s>broom closet</s> brig</li>';
 littleRevolucionText += '</i></ul>';
 
 const littleRevolucion = {
@@ -60,7 +64,8 @@ const discomforts = {
 
 let cataractsText = '<small>Written by Gabriel Urbina</small> <br>';
 cataractsText += '<ul><i>';
-cataractsText += '  <li>Eiffel takes a spacewalk, is temporarily blinded and only slightly drowned</li>';
+cataractsText +=
+  '  <li>Eiffel takes a spacewalk, is temporarily blinded and only slightly drowned</li>';
 cataractsText += '</i></ul>';
 
 const cataracts = {
@@ -74,7 +79,8 @@ const cataracts = {
 
 let cigaretteCandyText = '<small>Written by Gabriel Urbina</small> <br>';
 cigaretteCandyText += '<ul><i>';
-cigaretteCandyText += '  <li>Hilbert makes cigarette-flavored nicotine lozenges</li>';
+cigaretteCandyText +=
+  '  <li>Hilbert makes cigarette-flavored nicotine lozenges</li>';
 cigaretteCandyText += '  <li>Eiffel falls mysteriously ill</li>';
 cigaretteCandyText += '</i></ul>';
 
@@ -104,7 +110,8 @@ const energySaver = {
 
 let soundAndFuryText = '<small>Written by Gabriel Urbina</small> <br>';
 soundAndFuryText += '<ul><i>';
-soundAndFuryText += '  <li>Hera and Minkowski argue over station management</li>';
+soundAndFuryText +=
+  '  <li>Hera and Minkowski argue over station management</li>';
 soundAndFuryText += '  <li>Eiffel is caught in the middle</li>';
 soundAndFuryText += '  <li>Hilbert is posessed by the Plant Monster</li>';
 soundAndFuryText += '</i></ul>';
@@ -120,7 +127,8 @@ const soundAndFury = {
 let box953Text = '<small>Written by Gabriel Urbina</small> <br>';
 box953Text += '<ul><i>';
 box953Text += '  <li>The quarterly talent show</li>';
-box953Text += '  <li>Minkowski attempts to put on </i>Pirates of Penzance<i>, succeeds in firing a cannonball through the hull</li>';
+box953Text +=
+  '  <li>Minkowski attempts to put on </i>Pirates of Penzance<i>, succeeds in firing a cannonball through the hull</li>';
 box953Text += '  <li>Eiffel does not find out what was in Box 953</li>';
 box953Text += '</i></ul>';
 
@@ -134,7 +142,8 @@ const box953 = {
 
 let emptyManText = '<small>Written by Gabriel Urbina</small> <br>';
 emptyManText += '<ul><i>';
-emptyManText += '  <li>Command conducts a psychological experiment on the Hephaestus crew</li>';
+emptyManText +=
+  '  <li>Command conducts a psychological experiment on the Hephaestus crew</li>';
 emptyManText += '</i></ul>';
 
 const emptyMan = {
@@ -147,8 +156,10 @@ const emptyMan = {
 
 let dangerBugText = '<small>Written by Gabriel Urbina</small> <br>';
 dangerBugText += '<ul><i>';
-dangerBugText += '  <li>The crew discovers a hidden lab and the logs of Dr. Selberg</li>';
-dangerBugText += '  <li>Eiffel has a close encouter with the Nightmare Death Spider</li>';
+dangerBugText +=
+  '  <li>The crew discovers a hidden lab and the logs of Dr. Selberg</li>';
+dangerBugText +=
+  '  <li>Eiffel has a close encouter with the Nightmare Death Spider</li>';
 dangerBugText += '</i></ul>';
 
 const dangerBug = {
@@ -180,9 +191,11 @@ const alone = {
 let deepBreathsText = '<small>Written by Gabriel Urbina</small> <br>';
 deepBreathsText += '<ul><i>';
 deepBreathsText += '  <li>Christmas on the Hephaestus</li>';
-deepBreathsText += '  <li>Hilbert discovers the radio transmissions are not from Earth</li>';
+deepBreathsText +=
+  '  <li>Hilbert discovers the radio transmissions are not from Earth</li>';
 deepBreathsText += '  <li>Eiffel has a brief moment of job satisfaction</li>';
-deepBreathsText += '  <li>Hilbert mutinies and takes control of the station</li>';
+deepBreathsText +=
+  '  <li>Hilbert mutinies and takes control of the station</li>';
 deepBreathsText += '</i></ul>';
 
 const deepBreaths = {
@@ -198,7 +211,7 @@ let gasMeText = '<small>Written by Gabriel Urbina</small> <br>';
 gasMeText += '<ul><i>';
 gasMeText += '  <li>Eiffel and Hera start a fire</li>';
 gasMeText += '  <li>Minkowski punches Hilbert</li>';
-gasMeText += '  <li>Hilbert rips out Hera\'s personality core</li>';
+gasMeText += "  <li>Hilbert rips out Hera's personality core</li>";
 gasMeText += '  <li>Eiffel turns 32</li>';
 gasMeText += '</i></ul>';
 
@@ -210,7 +223,6 @@ const gasMe = {
   },
   display_date: 'December 25, 2014',
 };
-
 
 let episodes = [
   titleCard,

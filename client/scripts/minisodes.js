@@ -7,10 +7,12 @@
 // };
 
 // Are Space Suits Itchy?
-let spaceSuitsText = '<small>Written by Gabriel Urbina and Zach Valenti</small> <br>';
+let spaceSuitsText =
+  '<small>Written by Gabriel Urbina and Zach Valenti</small> <br>';
 spaceSuitsText += 'Mini Episode 1 <br>';
 spaceSuitsText += '<ul><i>';
-spaceSuitsText += '  <li>Eiffel is a goodwill ambassador to the American public school system</li>';
+spaceSuitsText +=
+  '  <li>Eiffel is a goodwill ambassador to the American public school system</li>';
 spaceSuitsText += '  <li>Eiffel admits to liking pineapple on pizza</li>';
 spaceSuitsText += '</i></ul>';
 
@@ -27,7 +29,7 @@ const spaceSuits = {
 let dayOneText = '<small>Written by Gabriel Urbina</small> <br>';
 dayOneText += 'Mini Episode 2';
 dayOneText += '<ul><i>';
-dayOneText += '  <li>The Hephaestus crew\'s first day on the station</li>';
+dayOneText += "  <li>The Hephaestus crew's first day on the station</li>";
 dayOneText += '</i></ul>';
 
 const dayOne = {
@@ -42,7 +44,8 @@ const dayOne = {
 let variationsText = '<small>Written by Gabriel Urbina</small> <br>';
 variationsText += 'Mini Episode 3';
 variationsText += '<ul><i>';
-variationsText += '  <li>Captain Lovelace reflects on her time on the Hephaestus</li>';
+variationsText +=
+  '  <li>Captain Lovelace reflects on her time on the Hephaestus</li>';
 variationsText += '</i></ul>';
 
 const variations = {
@@ -176,12 +179,14 @@ const kansas = {
 };
 
 // Live Show
-let liveShowText = '<small>Written by Gabriel Urbina and Sarah Shachat</small> <br>';
+let liveShowText =
+  '<small>Written by Gabriel Urbina and Sarah Shachat</small> <br>';
 liveShowText += 'Live Show';
 liveShowText += '<ul><i>';
 liveShowText += '  <li>Eiffel investigates a mysterious beeping noise</li>';
-liveShowText += '  <li>Lovelace\'s shuttle develops a new problem</li>';
-liveShowText += '  <li>Minkowski and Eiffel do some role-playing exercises</li>';
+liveShowText += "  <li>Lovelace's shuttle develops a new problem</li>";
+liveShowText +=
+  '  <li>Minkowski and Eiffel do some role-playing exercises</li>';
 liveShowText += '  <li>The crew gets a call from Mr. Cutter</li>';
 liveShowText += '</i></ul>';
 
@@ -197,7 +202,7 @@ const liveShow = {
 let changeOfMindText = '<small>Written by Gabriel Urbina</small> <br>';
 changeOfMindText += '<ul><i>';
 changeOfMindText += '  <li>Eiffel intercepts a radio signal in deep space</li>';
-changeOfMindText += '  <li>Hilbert doesn\'t burn to death</li>';
+changeOfMindText += "  <li>Hilbert doesn't burn to death</li>";
 changeOfMindText += '</i></ul>';
 
 const changeOfMind = {
@@ -212,7 +217,7 @@ const changeOfMind = {
 let oneOfThemText = '<small>Written by Gabriel Urbina</small> <br>';
 oneOfThemText += '<ul><i>';
 oneOfThemText += '  <li>Eiffel intercepts a radio signal in deep space</li>';
-oneOfThemText += '  <li>Hilbert doesn\'t burn to death</li>';
+oneOfThemText += "  <li>Hilbert doesn't burn to death</li>";
 oneOfThemText += '</i></ul>';
 
 const oneOfThem = {
@@ -222,7 +227,6 @@ const oneOfThem = {
     text: oneOfThemText,
   },
 };
-
 
 episodes = episodes.concat([
   spaceSuits,

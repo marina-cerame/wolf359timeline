@@ -8,7 +8,8 @@ const season3 = {
 
 let panPanText = '<small>Written by Gabriel Urbina</small> <br>';
 panPanText += '<ul><i>';
-panPanText += '  <li>The remaining crew scrapes by as the station deteriorates</li>';
+panPanText +=
+  '  <li>The remaining crew scrapes by as the station deteriorates</li>';
 panPanText += '  <li>Minkowski sends a distress call to Command</li>';
 panPanText += '</i></ul>';
 
@@ -37,7 +38,8 @@ const mayday = {
 
 let securiteText = '<small>Written by Gabriel Urbina</small> <br>';
 securiteText += '<ul><i>';
-securiteText += '  <li>SI-5 agents Col. Kepler, Mr. Jacobi, and Dr. Maxwell arrive on the Hephaestus</li>';
+securiteText +=
+  '  <li>SI-5 agents Col. Kepler, Mr. Jacobi, and Dr. Maxwell arrive on the Hephaestus</li>';
 securiteText += '  <li>Kepler takes command of the station</li>';
 securiteText += '</i></ul>';
 
@@ -68,14 +70,16 @@ const demolition = {
 
 let bearText = '<small>Written by Sarah Shachat</small> <br>';
 bearText += '<ul><i>';
-bearText += '  <li>Eiffel gets a checkup from Hilbert, under Kepler\'s supervision</li>';
-bearText += '  <li>Lovelace, Maxwell, and Jacobi try to break into Kepler\'s private server</li>';
+bearText +=
+  "  <li>Eiffel gets a checkup from Hilbert, under Kepler's supervision</li>";
+bearText +=
+  "  <li>Lovelace, Maxwell, and Jacobi try to break into Kepler's private server</li>";
 bearText += '</i></ul>';
 
 const bear = {
   start_date: { year: 2015, month: 11, day: 30 },
   text: {
-    headline: 'Don\'t Poke the Bear',
+    headline: "Don't Poke the Bear",
     text: bearText,
   },
 };
@@ -83,7 +87,8 @@ const bear = {
 let perspectiveText = '<small>Written by Gabriel Urbina</small> <br>';
 perspectiveText += '<ul><i>';
 perspectiveText += '  <li>Eiffel intercepts an alien transmission</li>';
-perspectiveText += '  <li>Minkowski, Lovelace, Hera, and Maxwell play Funzo</li>';
+perspectiveText +=
+  '  <li>Minkowski, Lovelace, Hera, and Maxwell play Funzo</li>';
 perspectiveText += '  <li>Eiffel turns 33</li>';
 perspectiveText += '</i></ul>';
 
@@ -98,8 +103,10 @@ const perspective = {
 
 let needToKnowText = '<small>Written by Gabriel Urbina</small> <br>';
 needToKnowText += '<ul><i>';
-needToKnowText += '  <li>Minkowski, Lovelace, Maxwell, Jacobi, and Hera "accidentally" see some unflattering confidential information</li>';
-needToKnowText += '  <li>Minkowski discovers that Eiffel was imprissoned for kidnapping and child endangerment</li>';
+needToKnowText +=
+  '  <li>Minkowski, Lovelace, Maxwell, Jacobi, and Hera "accidentally" see some unflattering confidential information</li>';
+needToKnowText +=
+  '  <li>Minkowski discovers that Eiffel was imprissoned for kidnapping and child endangerment</li>';
 needToKnowText += '</i></ul>';
 
 const needToKnow = {
@@ -128,8 +135,10 @@ const brimstone = {
 
 let overtureText = '<small>Written by Sarah Shachat</small> <br>';
 overtureText += '<ul><i>';
-overtureText += '  <li>Jacobi attempts to launch a sensor probe, which causes problems for Hera\'s systems</li>';
-overtureText += '  <li>The crew collects data that a significant contact event will occur in three months</li>';
+overtureText +=
+  "  <li>Jacobi attempts to launch a sensor probe, which causes problems for Hera's systems</li>";
+overtureText +=
+  '  <li>The crew collects data that a significant contact event will occur in three months</li>';
 overtureText += '</i></ul>';
 
 const overture = {
@@ -143,8 +152,10 @@ const overture = {
 
 let happyEndingsText = '<small>Written by Gabriel Urbina</small> <br>';
 happyEndingsText += '<ul><i>';
-happyEndingsText += '  <li>Hilbert and Lovelace enter the hidden door in engineering</li>';
-happyEndingsText += '  <li>Hilbert and Lovelace decide to start producing napalm... just in case</li>';
+happyEndingsText +=
+  '  <li>Hilbert and Lovelace enter the hidden door in engineering</li>';
+happyEndingsText +=
+  '  <li>Hilbert and Lovelace decide to start producing napalm... just in case</li>';
 happyEndingsText += '</i></ul>';
 
 const happyEndings = {
@@ -158,7 +169,8 @@ const happyEndings = {
 
 let consideredText = '<small>Written by Sarah Shachat</small> <br>';
 consideredText += '<ul><i>';
-consideredText += '  <li>Minkowski, Eiffel, and Jacobi present conflicting stories as to how Kepler\'s scotch ended up in space</li>';
+consideredText +=
+  "  <li>Minkowski, Eiffel, and Jacobi present conflicting stories as to how Kepler's scotch ended up in space</li>";
 consideredText += '</i></ul>';
 
 const considered = {
@@ -186,8 +198,10 @@ const limbo = {
 
 let memoriaText = '<small>Written by Gabriel Urbina</small> <br>';
 memoriaText += '<ul><i>';
-memoriaText += '  <li>Maxwell enters Hera\'s memory to repair her system damage</li>';
-memoriaText += '  <li>Hera and Maxwell discover the source of Hera\'s persistent glitching</li>';
+memoriaText +=
+  "  <li>Maxwell enters Hera's memory to repair her system damage</li>";
+memoriaText +=
+  "  <li>Hera and Maxwell discover the source of Hera's persistent glitching</li>";
 memoriaText += '</i></ul>';
 
 const memoria = {
@@ -202,7 +216,8 @@ const memoria = {
 
 let timeToKillText = '<small>Written by Sarah Shachat</small> <br>';
 timeToKillText += '<ul><i>';
-timeToKillText += '  <li>Lovelace, Eiffel, Maxwell, and Jacobi spend 96 hours in a hab to collect data on the star</li>';
+timeToKillText +=
+  '  <li>Lovelace, Eiffel, Maxwell, and Jacobi spend 96 hours in a hab to collect data on the star</li>';
 timeToKillText += '  <li>They encounter an anomaly</li>';
 timeToKillText += '</i></ul>';
 
@@ -216,9 +231,12 @@ const timeToKill = {
 
 let persuasionText = '<small>Written by Zach Valenti</small> <br>';
 persuasionText += '<ul><i>';
-persuasionText += '  <li>The crew tries to attach a psi wave regulator to the station during a solar storm</li>';
-persuasionText += '  <li>Hilbert and Eiffel build a device that allows Minkowski to call Earth</li>';
-persuasionText += '  <li>Minkowski discovers Goddard told the world the crew died in a suttle crash</li>';
+persuasionText +=
+  '  <li>The crew tries to attach a psi wave regulator to the station during a solar storm</li>';
+persuasionText +=
+  '  <li>Hilbert and Eiffel build a device that allows Minkowski to call Earth</li>';
+persuasionText +=
+  '  <li>Minkowski discovers Goddard told the world the crew died in a suttle crash</li>';
 persuasionText += '</i></ul>';
 
 const persuasion = {
@@ -231,8 +249,9 @@ const persuasion = {
 
 let desperateTimesText = '<small>Written by Gabriel Urbina</small> <br>';
 desperateTimesText += '<ul><i>';
-desperateTimesText += '  <li>The crew lay out a plan to overthrow the SI-5 agents</li>';
-desperateTimesText += '  <li>Eiffel and Lovelace are taken captive</li>'
+desperateTimesText +=
+  '  <li>The crew lay out a plan to overthrow the SI-5 agents</li>';
+desperateTimesText += '  <li>Eiffel and Lovelace are taken captive</li>';
 desperateTimesText += '</i></ul>';
 
 const desperateTimes = {
@@ -274,7 +293,7 @@ const bolero = {
     headline: 'Boléro',
     text: boleroText,
   },
-  display_date: 'May 11, 2016'
+  display_date: 'May 11, 2016',
 };
 
 episodes = episodes.concat([
